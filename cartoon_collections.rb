@@ -8,9 +8,9 @@ end
   # Your code here
 
 def summon_captain_planet(array)
-  array.each do |item|
+  array.map do |item|
     puts "#{item}!"
-  end  
+  end
 end
 
 def long_planeteer_calls# code an argument here
