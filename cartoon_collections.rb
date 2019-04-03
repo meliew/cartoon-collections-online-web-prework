@@ -1,7 +1,7 @@
 def roll_call_dwarves(array)
-  ind = index + 1
+  indexplus = index + 1
   array.each_with_index do |ind, dwarf|
-    puts ind dwarf
+    puts "#{indexplus} . dwarf"
   end
 end
 
