@@ -1,5 +1,4 @@
 def roll_call_dwarves(array)
-  indexplus = index + 1
   array.each_with_index do |dwarf|
     puts dwarf
   end
