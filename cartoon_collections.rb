@@ -8,7 +8,7 @@ end
   # Your code here
 
 def summon_captain_planet(array)
-  array.map do |item|
+  array.collect do |item|
     puts "#{item.upcase}!"
   end
 end
